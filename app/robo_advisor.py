@@ -77,10 +77,10 @@ y = float(latest_open)
 
 if x >= y:
     recommendation = "BUY"
-    recommendation_reason = "The price of the stock increased. Things look good."
+    recommendation_reason = "The price of the stock increased. Things look good. Although, act with caution if Trump tweeted about this company today."
 else:
     recommendation = "SELL"
-    recommendation_reason = "The price of the stock decreased. Things aren't looking so good."
+    recommendation_reason = "The price of the stock decreased. Things aren't looking so good. Although, this may be a good time dollar cost average your position."
 
 print("-------------------------")
 print("SELECTED SYMBOL:", symbol)
